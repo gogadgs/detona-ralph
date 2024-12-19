@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("./main.css");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ /*    font-family: "Bebas Neue", sans-serif; */
+    font-family: "Press Start 2P", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#000000;
+}
+
+body{
+    min-width: 100vw;
+    max-height:100vh;
+}
+ .menu-time>h2:first-of-type{
+    color:red;
+}
+ .menu-time>h2:last-of-type{
+    color:#ffffff;
+}
+.menu-score>h2:first-of-type{
+    color:red;
+}
+.menu-score>h2:last-of-type{
+    color:#ffffff;
+}
+.menu-lives>h2:first-of-type{
+    color:#ffffff;
+}
